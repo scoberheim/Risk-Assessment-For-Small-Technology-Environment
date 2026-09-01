@@ -1,5 +1,3 @@
-# Cybersecurity-Risk-Assessment-Risk-Register
-
 # Risk Assessment Methodology
 
 ## 1. Purpose
