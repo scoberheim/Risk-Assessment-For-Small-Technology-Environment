@@ -56,22 +56,19 @@ The following areas are outside the scope of this assessment:
 ---
 ## Methodology
 
-The assessment follows a structured risk assessment methodology:
+Risk Assessment Methodology
 
-1. Define scope and objectives
-2. Identify assets and their criticality
-3. Identify threats and vulnerabilities
-4. Identify potential risk scenarios
-5. Assess likelihood
-6. Assess impact
-7. Calculate inherent risk
-8. Identify existing controls
-9. Assess control effectiveness
-10. Determine residual risk
-11. Develop risk treatment plans
-12. Assign risk owners
-13. Establish review dates
+This project uses a qualitative information-security risk assessment methodology based on a 5 × 5 likelihood and impact matrix.
 
+Risks are identified by evaluating threats and vulnerabilities associated with organisational assets and considering the effectiveness of existing controls. Each risk is assessed according to its likelihood of occurrence and potential impact on confidentiality, integrity and availability.
+
+An inherent risk score is calculated by multiplying likelihood by impact. Risks are then evaluated against defined risk acceptance criteria and assigned an appropriate treatment strategy: avoid, mitigate, transfer or accept.
+
+Following the identification of proposed controls, residual risk is assessed to determine whether the remaining risk falls within the organisation's defined risk appetite.
+
+Each risk is assigned an owner responsible for monitoring and managing the risk. The risk register is reviewed periodically and following significant organisational, technological or security changes.
+
+The methodology is aligned with ISO 27005 risk-management principles and informed by NIST SP 800-30.
 ---
 
 ## Risk Rating Methodology
