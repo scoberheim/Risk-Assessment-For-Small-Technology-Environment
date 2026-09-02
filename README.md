@@ -54,7 +54,23 @@ The following areas are outside the scope of this assessment:
 - [Add your exclusions here]
 
 ---
+## Methodology
 
+The assessment follows a structured risk assessment methodology:
+
+1. Define scope and objectives
+2. Identify assets and their criticality
+3. Identify threats and vulnerabilities
+4. Identify potential risk scenarios
+5. Assess likelihood
+6. Assess impact
+7. Calculate inherent risk
+8. Identify existing controls
+9. Assess control effectiveness
+10. Determine residual risk
+11. Develop risk treatment plans
+12. Assign risk owners
+13. Establish review dates
 
 ---
 
