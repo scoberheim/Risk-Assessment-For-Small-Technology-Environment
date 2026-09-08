@@ -69,6 +69,7 @@ Following the identification of proposed controls, residual risk is assessed to 
 Each risk is assigned an owner responsible for monitoring and managing the risk. The risk register is reviewed periodically and following significant organisational, technological or security changes.
 
 The methodology is aligned with ISO 27005 risk-management principles and informed by NIST SP 800-30.
+
 ---
 
 ## Risk Rating Methodology
