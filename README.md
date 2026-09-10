@@ -1,8 +1,7 @@
+[README.md](https://github.com/user-attachments/files/32059552/README.md)
 # GRC Case Study — Technical Security Lab
 
-This repository documents the Governance, Risk and Compliance (GRC) work applied to my [Technical Security Lab](../technical-security-lab) homelab — a Proxmox/OPNsense environment built to practice security architecture, network segmentation, and risk management.
-
-*(Replace the link above with the actual URL to your homelab repo.)*
+This repository documents the Governance, Risk and Compliance (GRC) work applied to my [Technical Security Lab](https://github.com/scoberheim/Risk-Assessment-For-Small-Technology-Environment/blob/technical-security-lab) homelab — a Proxmox/OPNsense environment built to practice security architecture, network segmentation, and risk management.
 
 ## Overview
 
@@ -10,7 +9,7 @@ Using the homelab as a case study, this project applies core GRC practices to a 
 
 - **Asset identification** — cataloging every system in the lab and classifying it by criticality
 - **Risk assessment** — identifying threats and vulnerabilities against those assets, scoring them, and recommending treatment
-- **Control mapping** — aligning existing and planned controls to a recognized framework
+- **Control mapping** *(in progress)* — aligning existing and planned controls to a recognized framework
 
 The goal is to demonstrate practical GRC skills — not just theory — grounded in a real, inspectable environment rather than a hypothetical scenario.
 
@@ -20,7 +19,7 @@ The goal is to demonstrate practical GRC skills — not just theory — grounded
 |---|---|
 | [Asset Register](./asset-register.md) | Full inventory of lab assets, with type, criticality, and ownership |
 | [Risk Assessment & Risk Register](./risk-assessment-and-register.md) | Methodology, likelihood/impact scoring, and the full risk register |
-| Control Mapping *(coming soon)* | Mapping of existing lab controls to a chosen framework (e.g. NIST CSF) |
+| [Control Mapping](./control-mapping.md) | Mapping of existing lab controls to NIST CSF 2.0 |
 
 ## Methodology
 
@@ -36,7 +35,7 @@ Risk is assessed qualitatively using a 5x5 Likelihood x Impact matrix, an approa
 
 ## Roadmap
 
-- [ ] Map existing lab controls to NIST CSF / ISO 27001
+- [x] Map existing lab controls to NIST CSF 2.0
 - [ ] Add a business impact analysis (BIA) for key assets
 - [ ] Document a backup and disaster recovery policy based on findings in the risk register
 
