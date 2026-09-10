@@ -1,7 +1,7 @@
 [README.md](https://github.com/user-attachments/files/32059552/README.md)
 # GRC Case Study — Technical Security Lab
 
-This repository documents the Governance, Risk and Compliance (GRC) work applied to my [Technical Security Lab](https://github.com/scoberheim/blob/technical-security-lab) homelab — a Proxmox/OPNsense environment built to practice security architecture, network segmentation, and risk management.
+This repository documents the Governance, Risk and Compliance (GRC) work applied to my [Technical Security Lab](https://github.com/scoberheim/blob/Technical-Security-Lab) homelab — a Proxmox/OPNsense environment built to practice security architecture, network segmentation, and risk management.
 
 ## Overview
 
