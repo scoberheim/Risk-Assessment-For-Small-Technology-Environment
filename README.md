@@ -10,7 +10,7 @@ Using the homelab as a case study, this project applies core GRC practices to a 
 
 - **Asset identification** — cataloging every system in the lab and classifying it by criticality
 - **Risk assessment** — identifying threats and vulnerabilities against those assets, scoring them, and recommending treatment
-- **Control mapping** *(in progress)* — aligning existing and planned controls to a recognized framework
+- **Control mapping** — aligning existing and planned controls to a recognized framework
 
 The goal is to demonstrate practical GRC skills — not just theory — grounded in a real, inspectable environment rather than a hypothetical scenario.
 
