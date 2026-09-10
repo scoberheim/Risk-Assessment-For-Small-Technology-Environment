@@ -1,221 +1,45 @@
-# Information Security Risk Assessment
+# GRC Case Study — Technical Security Lab
+
+This repository documents the Governance, Risk and Compliance (GRC) work applied to my [Technical Security Lab](../technical-security-lab) homelab — a Proxmox/OPNsense environment built to practice security architecture, network segmentation, and risk management.
+
+*(Replace the link above with the actual URL to your homelab repo.)*
 
 ## Overview
 
-This project demonstrates a practical information security risk assessment
-process for a fictional organisation.
+Using the homelab as a case study, this project applies core GRC practices to a real, documented technical environment:
 
-The assessment identifies information security risks, evaluates their
-likelihood and potential impact, considers existing controls, and develops
-appropriate risk treatment actions.
+- **Asset identification** — cataloging every system in the lab and classifying it by criticality
+- **Risk assessment** — identifying threats and vulnerabilities against those assets, scoring them, and recommending treatment
+- **Control mapping** *(in progress)* — aligning existing and planned controls to a recognized framework
 
-The project is designed to demonstrate practical application of GRC
-principles rather than simply theoretical knowledge.
+The goal is to demonstrate practical GRC skills — not just theory — grounded in a real, inspectable environment rather than a hypothetical scenario.
 
----
+## Contents
 
-## Objectives
+| Document | Description |
+|---|---|
+| [Asset Register](./asset-register.md) | Full inventory of lab assets, with type, criticality, and ownership |
+| [Risk Assessment & Risk Register](./risk-assessment-and-register.md) | Methodology, likelihood/impact scoring, and the full risk register |
+| Control Mapping *(coming soon)* | Mapping of existing lab controls to a chosen framework (e.g. NIST CSF) |
 
-The objectives of this assessment are to:
-
-- Identify and document key information security risks
-- Identify relevant assets, threats and vulnerabilities
-- Assess inherent risk based on likelihood and impact
-- Identify existing security controls
-- Determine residual risk after considering existing controls
-- Develop appropriate risk treatment plans
-- Assign risk owners and review dates
-- Produce a structured risk register that can support management decision-making
-
----
-
-## Assessment Scope
-
-The assessment covers:
-
-- Information assets
-- IT infrastructure
-- Applications and services
-- Users and access
-- Data
-- Third-party dependencies
-- Physical and environmental considerations
-
-The assessment considers risks affecting:
-
-- Confidentiality
-- Integrity
-- Availability
-
-### Out of Scope
-
-The following areas are outside the scope of this assessment:
-
-- [Add your exclusions here]
-
----
 ## Methodology
 
-Risk Assessment Methodology
-
-This project uses a qualitative information-security risk assessment methodology based on a 5 × 5 likelihood and impact matrix.
-
-Risks are identified by evaluating threats and vulnerabilities associated with organisational assets and considering the effectiveness of existing controls. Each risk is assessed according to its likelihood of occurrence and potential impact on confidentiality, integrity and availability.
-
-An inherent risk score is calculated by multiplying likelihood by impact. Risks are then evaluated against defined risk acceptance criteria and assigned an appropriate treatment strategy: avoid, mitigate, transfer or accept.
-
-Following the identification of proposed controls, residual risk is assessed to determine whether the remaining risk falls within the organisation's defined risk appetite.
-
-Each risk is assigned an owner responsible for monitoring and managing the risk. The risk register is reviewed periodically and following significant organisational, technological or security changes.
-
-The methodology is aligned with ISO 27005 risk-management principles and informed by NIST SP 800-30.
-
----
-
-## Risk Rating Methodology
-
-Risk is assessed using a likelihood × impact model.
-
-### Likelihood
-
-| Rating | Description |
-|---|---|
-| 1 | Rare |
-| 2 | Unlikely |
-| 3 | Possible |
-| 4 | Likely |
-| 5 | Almost Certain |
-
-### Impact
-
-| Rating | Description |
-|---|---|
-| 1 | Insignificant |
-| 2 | Minor |
-| 3 | Moderate |
-| 4 | Major |
-| 5 | Severe |
-
-### Risk Score
-
-**Risk Score = Likelihood × Impact**
-
-| Score | Rating |
-|---:|---|
-| 1–4 | Low |
-| 5–9 | Medium |
-| 10–14 | High |
-| 15–25 | Critical |
-
----
-
-## Risk Treatment
-
-Identified risks are considered for the following treatment options:
-
-- **Mitigate** – Implement controls to reduce likelihood and/or impact
-- **Avoid** – Stop or change the activity creating the risk
-- **Transfer** – Transfer some or all of the risk to a third party
-- **Accept** – Formally accept the remaining risk
-
-Risk treatment decisions consider the level of risk, existing controls,
-business requirements and available resources.
-
----
-
-## Frameworks and Standards
-
-This project draws on principles from:
-
-- ISO/IEC 27001
-- ISO/IEC 27005
-- NIST Cybersecurity Framework
-- NIST risk management principles
-
-The project is intended as a portfolio demonstration and is not presented
-as a formal certification assessment.
-
----
-
-## Key Deliverables
-
-The repository contains the following evidence:
-
-| File | Description |
-|---|---|
-| `risk-register.xlsx` | Completed information security risk register |
-| `risk-methodology.md` | Detailed assessment methodology |
-| `risk-matrix.png` | Likelihood and impact risk matrix |
-| `asset-register.xlsx` | Assets considered during the assessment |
-| `README.md` | Project overview and methodology |
-
----
-
-## Example Risk
-
-One example risk identified during the assessment is:
-
-**Risk:** Unauthorised access to sensitive organisational data
-
-**Threat:** Compromised user credentials
-
-**Vulnerability:** Insufficient access controls and authentication protections
-
-**Potential Impact:**
-- Confidentiality breach
-- Regulatory consequences
-- Financial loss
-- Reputational damage
-
-**Initial Risk:** High
-
-**Treatment:** Implement stronger authentication, least-privilege access,
-access reviews and monitoring.
-
-**Residual Risk:** Medium
-
----
-
-## Risk Register
-
-The complete risk register can be found here:
-
-[View the Risk Register](./risk-register.xlsx)
-
----
+Risk is assessed qualitatively using a 5x5 Likelihood x Impact matrix, an approach consistent with NIST SP 800-30 guidance on conducting risk assessments. Each risk in the register is scored, mapped to a risk band (Low / Medium / High / Critical), and assigned a treatment option (Mitigate, Accept, Transfer, or Avoid). Full detail is in the [Risk Assessment & Risk Register](./risk-assessment-and-register.md) document.
 
 ## Skills Demonstrated
 
-This project demonstrates practical skills in:
+- Asset identification and classification
+- Qualitative risk assessment (likelihood x impact scoring)
+- Risk treatment planning
+- Network segmentation and security architecture (see homelab repo)
+- GRC documentation and reporting
 
-- Information security risk assessment
-- Risk identification
-- Risk analysis
-- Risk scoring
-- Risk treatment
-- Control assessment
-- Asset classification
-- Risk register development
-- GRC documentation
-- Security frameworks
-- Management reporting
+## Roadmap
 
----
+- [ ] Map existing lab controls to NIST CSF / ISO 27001
+- [ ] Add a business impact analysis (BIA) for key assets
+- [ ] Document a backup and disaster recovery policy based on findings in the risk register
 
-## Project Outcome
+## How to Navigate This Repo
 
-The completed assessment provides a structured view of the organisation's
-information security risk landscape and identifies prioritised actions for
-reducing risk.
-
-The project demonstrates how a GRC practitioner can translate technical and
-business risks into a structured format that can support risk-based
-decision-making.
-
----
-
-## Disclaimer
-
-This is a fictional portfolio project created for educational and
-professional development purposes. No real organisational information or
-confidential data has been used.
+Every document above is a standard markdown file, so clicking any link renders it directly in GitHub — tables, headers, and formatting included. No external tools or logins are needed to view any part of this project.
