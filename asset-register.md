@@ -13,6 +13,7 @@ This register catalogs all assets within the homelab environment. It is referenc
 | AST-007 | Kali Linux Desktop | Security Workstation | IT | Lab | Low | Security testing and vulnerability assessment | | Active | |
 | AST-008 | Azure Storage Account | Cloud Storage | IT | Cloud | Medium | Cloud storage for Azure-hosted data | | Active | |
 | AST-009 | Microsoft Sentinel Workspace | Security Service | Security | Cloud | High | Centralised security monitoring, logging and incident management | | Active | |
+| AST-010 | Generative AI assistants | SaaS Tool | Third-party Service | Cloud | Medium | AI assistants used for lab administration, troubleshooting and documentation | | Active | |
 
 ## Field Definitions
 - **Criticality** — Business/lab impact if the asset is unavailable or compromised (High / Medium / Low).
