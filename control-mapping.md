@@ -10,9 +10,10 @@ NIST CSF 2.0 was chosen because it's function-based rather than prescriptive, ma
 
 | Function | Category | Lab Control(s) Applied | Status | Gap / Recommendation |
 |---|---|---|---|---|
+| **Govern** | Policy (GV.PO) | This repository serves as informal governance documentation; no AI acceptable-use rule yet | Partial | Document a lab security policy / rules of engagement for testing, including an AI acceptable-use rule (what can and can't be shared with AI tools) |
+| **Govern** | Cybersecurity Supply Chain Risk Management (GV.SC) | Third-party services (Azure, AI providers) used without documented supplier review | Partial | Record key providers, what data they hold, and their retention/security settings |
 | **Identify** | Asset Management (ID.AM) | Asset Register documents all VMs, cloud assets, and criticality ratings | Implemented | Add data classification per asset |
 | **Identify** | Risk Assessment (ID.RA) | Risk Register with likelihood/impact scoring | Implemented | Schedule periodic re-assessment (e.g. quarterly) |
-| **Identify** | Governance (ID.GV) | This repository serves as informal governance documentation | Partial | Document a lab security policy / rules of engagement for testing |
 | **Protect** | Identity Management & Access Control (PR.AA) | Administrative access restricted to authorized systems | Partial | Add MFA on Proxmox/OPNsense web UIs; adopt unique credentials per system |
 | **Protect** | Data Security (PR.DS) | Network segmentation isolates Cyber Lab (VLAN 30) from Primary LAN | Implemented | Add disk encryption on Proxmox host; review Azure Storage access policy |
 | **Protect** | Platform Security (PR.PS) | OPNsense firewall rules control inter-segment traffic | Implemented | Establish a patch management cadence for all VMs |
